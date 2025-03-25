@@ -57,6 +57,9 @@ export async function POST(request: Request) {
         silence_duration_ms: vadSilenceDurationMs,
         prefix_padding_ms: vadPrefixPaddingMs,
       }),
+      agent_id: "mastegpt_agent",
+      agent_name: "Universal Agent",
+      user_id: "123",
     }),
   });
   at.addGrant({
